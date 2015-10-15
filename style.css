@@ -1,6 +1,6 @@
-@font-face{font-family:'BenchNine-Regular';src:url('fonts/benchnine/BenchNine-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'BenchNine-Light';src:url('../fonts/benchnine/BenchNine-Light.ttf') format('truetype');font-weight:normal;font-style:normal}
-@font-face{font-family:'OpenSans-CondLight';src:url('fonts/open-sans-condensed/OpenSans-CondLight.ttf') format('truetype');font-weight:normal;font-style:normal}
-@font-face{font-family:'Gidole-Regular';src:url('fonts/gidole-reg/Gidole-Regular.otf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'BenchNine-Regular';src:url('historicizing/fonts/benchnine/BenchNine-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'BenchNine-Light';src:url('../fonts/benchnine/BenchNine-Light.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'OpenSans-CondLight';src:url('historicizing/fonts/open-sans-condensed/OpenSans-CondLight.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'Gidole-Regular';src:url('historicizing/fonts/gidole-reg/Gidole-Regular.otf') format('truetype');font-weight:normal;font-style:normal}
 
 /*============================
 * MAIN STYLES
