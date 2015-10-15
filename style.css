@@ -1,6 +1,6 @@
-@font-face{font-family:'BenchNine-Regular';src:url('https://github.com/Writing-with-Digital-Technologies-f15/historicizing/blob/gh-pages/benchnine/BenchNine-Regular.ttf?raw=true') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'BenchNine-Light';src:url('../fonts/benchnine/BenchNine-Light.ttf') format('truetype');font-weight:normal;font-style:normal}
-@font-face{font-family:'OpenSans-CondLight';src:url('historicizing/fonts/open-sans-condensed/OpenSans-CondLight.ttf') format('truetype');font-weight:normal;font-style:normal}
-@font-face{font-family:'Gidole-Regular';src:url('historicizing/fonts/gidole-reg/Gidole-Regular.otf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'BenchNine-Regular';src:url('historicizing/benchnine/BenchNine-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'BenchNine-Light';src:url('../fonts/benchnine/BenchNine-Light.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'OpenSans-CondLight';src:url('historicizing/open-sans-condensed/OpenSans-CondLight.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'Gidole-Regular';src:url('historicizing/gidole-reg/Gidole-Regular.otf') format('truetype');font-weight:normal;font-style:normal}
 
 /*============================
 * MAIN STYLES
