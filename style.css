@@ -26,7 +26,6 @@ ul,ol { font-size: 1.1rem; }
 article {
   padding: 1rem 2rem;
   margin: 0 auto;
-  width: 90%;
 }
 footer {
   padding: 2rem 2rem;
@@ -203,9 +202,6 @@ nav {
   height: 3rem;
   z-index: initial;
   line-height: 1rem;
-  /*border-radius: 50%;
-  -webkit-transition: .3s;
-          transition: .3s;*/
   background: #a7ffe3;
   color: #000;
   outline: none;
@@ -216,15 +212,13 @@ nav {
 }
 
 nav a {
-  /*width: 2.5rem;*/
   height: 2.5rem;
-  /*border-radius: 50%;*/
   background: #eee;
   text-align: center;
-  line-height: 1.15;
+  line-height: 2;
   color: #000;
+  font-weight: 400;
   text-decoration: none;
-  /*position: absolute;*/
   font-size: 1rem;
   text-align: center;
   -webkit-transition: .4s;
@@ -232,134 +226,16 @@ nav a {
   z-index: -1;
 }
 .nav-pre-scroll a {
-  font-size: 1rem; 
-  /*text-decoration: none;
-  text-transform: uppercase;*/
+  font-size: 1rem;
   color: #000;
   display: inline-block;
-  /*margin-top: 4px;*/
-  padding: 0px 5px;
+  padding: 5px;
+  margin: 4px auto;
+  border-radius: 7px;
 }
 nav a:hover, nav a:focus {
   background-color: #665c5c;
 }
-
-/* NAV ANIMATION */
-
-/*nav:hover, nav:focus {
-  background: #000;
-  color: #fff;
-}*/
-
-/* nav menu bar */
-/*nav:before, nav:after, nav > span {
-  position: absolute;
-  left: 27%;
-  content: "";
-  display: block;
-  width: 46%;
-  top: 33%;
-  height: 8%;
-  background: #000;
-  -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
-  -webkit-transition: .5s;
-          transition: .5s;
-}
-nav span {
-  top: 46%;
-}
-nav:after {
-  top: 60%;
-}
-
-nav.clicked:before {
-  -webkit-animation: getcrossedpos .6s forwards;
-          animation: getcrossedpos .6s forwards;
-}
-nav.clicked:after {
-  -webkit-animation: getcrossedneg .6s forwards;
-          animation: getcrossedneg .6s forwards;
-}
-nav.clicked span#center-bar {
-  opacity: 0;
-}
-nav:hover {
-  cursor: pointer;
-  color: white;
-}
-nav.clicked {
-  background: #fff;
-  outline: none;
-  color: #fff;
-}
-
-.nav-pre-scroll a:first-child {
-  border-top: 2px solid #f07057;
-  padding-top: 10px;
-}
-
-nav a:nth-child(2) {
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-nav.clicked a:nth-child(2) {
-  -webkit-transform: rotate(0deg) translateX(3rem) translateY(-1rem) rotate(0deg);
-      -ms-transform: rotate(0deg) translateX(3rem) translateY(-1rem) rotate(0deg);
-          transform: rotate(0deg) translateX(3rem) translateY(-1rem) rotate(0deg);
-}
-nav a:nth-child(3) {
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-nav.clicked a:nth-child(3) {
-  -webkit-transform: rotate(0deg) translateX(6rem) translateY(-1rem) rotate(-0deg);
-      -ms-transform: rotate(0deg) translateX(6rem) translateY(-1rem) rotate(-0deg);
-          transform: rotate(0deg) translateX(6rem) translateY(-1rem) rotate(-0deg);
-}
-nav a:nth-child(4) {
-  -webkit-transform: rotate(72deg);
-      -ms-transform: rotate(72deg);
-          transform: rotate(72deg);
-}
-nav.clicked a:nth-child(4) {
-  -webkit-transform: rotate(0deg) translateX(9rem) translateY(-1rem) rotate(0deg);
-      -ms-transform: rotate(0deg) translateX(9rem) translateY(-1rem) rotate(0deg);
-          transform: rotate(0deg) translateX(9rem) translateY(-1rem) rotate(0deg);
-}
-nav a:nth-child(5) {
-  -webkit-transform: rotate(144deg);
-      -ms-transform: rotate(144deg);
-          transform: rotate(144deg);
-}
-nav.clicked a:nth-child(5) {
-  -webkit-transform: rotate(0deg) translateX(3rem) translateY(3rem) rotate(0deg);
-      -ms-transform: rotate(0deg) translateX(3rem) translateY(3rem) rotate(0deg);
-          transform: rotate(0deg) translateX(3rem) translateY(3rem) rotate(0deg);
-}
-nav a:nth-child(6) {
-  -webkit-transform: rotate(216deg);
-      -ms-transform: rotate(216deg);
-          transform: rotate(216deg);
-}
-nav.clicked a:nth-child(6) {
-  -webkit-transform: rotate(0deg) translateX(6rem) translateY(3rem) rotate(0deg);
-      -ms-transform: rotate(0deg) translateX(6rem) translateY(3rem) rotate(0deg);
-          transform: rotate(0deg) translateX(6rem) translateY(3rem) rotate(0deg);
-}
-nav a:nth-child(7) {
-  -webkit-transform: rotate(288deg);
-      -ms-transform: rotate(288deg);
-          transform: rotate(288deg);
-}
-nav.clicked a:nth-child(7) {
-  -webkit-transform: rotate(0deg) translateX(9rem) translateY(3rem) rotate(0deg);
-      -ms-transform: rotate(0deg) translateX(9rem) translateY(3rem) rotate(0deg);
-          transform: rotate(0deg) translateX(9rem) translateY(3rem) rotate(0deg);
-}*/
 
 /*============================
 * SYLLABUS SECTIONS
@@ -437,39 +313,45 @@ ul.crisp-list {
 ul.crisp-list > li {
   padding: 0% 2%;
   display: inline-flex;
-  margin: 15px 0px 0px 0px;
-  width: 46%;
+  width: 100%;
+  font-size: 1.5em;
 }
-ul.crisp-list > li > i.list-icons {
+ul.crisp-list > li > img {
+  width: 100px;
   margin: 8px 15px 15px 5px;
+  border-radius: 50px;
+  border: 1px solid #000;
 }
-ul.crisp-list > li > i.icon-right-align {
-  text-align: right;
+ul.crisp-list > li > span {
+  margin: auto 0px;
 }
 ul.crisp-list > li.sub-crisp-list {
   display: table;
   font-size: 0.8rem;
   font-weight: 200;
   width: 95%;
-  margin-bottom: 15px;
+  margin: 15px 0px;
+  padding: 45px 15px;
 }
 ul.crisp-list > li.sub-crisp-list > ul {
   list-style-type: none;
-  padding: 0rem;
-  margin-top: 10px;
-  width: 90%;
   line-height: 1.25;
+}
+ul.crisp-list > li.sub-crisp-list > ul a {
+  text-decoration: none;
 }
 ul.crisp-list > li.sub-crisp-list > ul li {
   list-style-type: none;
-  margin: 0rem 0rem 0rem 3rem;
-  margin-top: -25px;
-  padding: 1rem;
+  padding: 25px;
   background-color: #fff;
+  border: 1px solid rgb(51, 51, 51);
 }
-ul.crisp-list > li.sub-crisp-list:hover,
 ul.crisp-list > li.sub-crisp-list > ul li:hover {
   color: #03604c;
+}
+ul.crisp-list > li.sub-crisp-list > ul li strong {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 ul.crisp-list > li:hover {
   color: #000;
@@ -723,6 +605,8 @@ video {
 @media (min-width: 1480px) {#screens > svg {width: 45%; padding: 0rem 8rem 0rem;}}
 @media (min-width: 900px) and (max-width: 1010px) {#screens > svg {width:55%;}}
 @media (min-width: 800px) {.figure-inline {width:60%;}}
+@media (min-width: 900px) { p.subtitle { text-align: left; }}
+
 @media (min-width: 0px) and (max-width: 899px) {
   #screens > svg {
     display: inline-flex;
