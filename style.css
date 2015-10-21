@@ -234,6 +234,7 @@ ul.crisp-list > li {
 }
 ul.crisp-list > li > img {
   width: 100px;
+  height: 100px;
   margin: 8px 15px 15px 5px;
   border-radius: 50px;
   border: 1px solid #000;
